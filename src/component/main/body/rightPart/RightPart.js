@@ -14,6 +14,5 @@ export default RightPart
 const rightPartStyle = {
   diplay: "grid",
   gridTemplateRows: "1fr 300px 1fr",
-  // flexDirection: "column",
   marginLeft: "20px"
 }

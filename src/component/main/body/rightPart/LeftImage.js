@@ -1,5 +1,5 @@
 import React from 'react'
-import rightImage from '../../../MobileApp/APP UPLOAD REQUIREMENTS/7-Dark Mode.png'
+import rightImage from '../../../../ALL LANDING PAGES/Mobile App Ad@2x.png'
 
 const RightImage = () => {
   return (

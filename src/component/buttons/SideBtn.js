@@ -4,10 +4,12 @@ import img from '../images'
 
 
 
-const SideBtn = () => {
+const SideBtn = ({avatar}) => {
   return (
     <div>
-      <button style={sideBtnStyle}></button>
+      <button style={sideBtnStyle}>
+        <img style={imgStyle} src={avatar} alt="avatar" />
+      </button>
     </div>
   )
 }
@@ -21,4 +23,10 @@ const sideBtnStyle = {
     width: "25px",
     height: "25px",
     margin: "7px 0"
+}
+
+const imgStyle = {
+  width: "100%",
+  height: "100%",
+  objectFit: "cover",
 }
