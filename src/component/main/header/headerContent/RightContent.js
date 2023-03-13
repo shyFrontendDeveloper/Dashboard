@@ -8,8 +8,8 @@ import ToggleOffOutlinedIcon from '@mui/icons-material/ToggleOffOutlined';
 const RightContent = () => {
   return (
     <div style={rightStyle}>
-      <Button variant='contained' style={{textTransform: 'none', backgroundColor: "#B0F0B5"}} endIcon={<RocketLaunchOutlinedIcon color='secondary' />}>
-        Upgrade Plan
+      <Button variant='contained' style={{textTransform: 'none', backgroundColor: "#B0F0B5", border: 0}} endIcon={<RocketLaunchOutlinedIcon color='secondary' />}>
+        <p style={{color: "#000"}}>Upgrade Plan</p>
       </Button>
       <SearchOutlinedIcon fontSize='large' />
       <WbSunnyOutlinedIcon fontSize='large' />
@@ -22,5 +22,5 @@ export default RightContent
 
 const rightStyle = {
     display: "flex",
-    justifyContent: "space-in-between"
+    justifyContent: "space-in-between",
 }

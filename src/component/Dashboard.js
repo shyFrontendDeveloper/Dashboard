@@ -2,6 +2,7 @@ import React from 'react'
 import Divider from './sidebar/divider/Divider'
 import Sidebar from './sidebar/Sidebar'
 import Header from './main/header/Header'
+import Body from './main/body/Body'
 
 const Dashboard = () => {
   return (
@@ -9,6 +10,7 @@ const Dashboard = () => {
       <Sidebar />
       <Divider />
       <Header />
+      <Body />
     </div>
   )
 }

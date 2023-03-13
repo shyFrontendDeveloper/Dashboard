@@ -94,11 +94,11 @@ const Divider = () => {
       <List>
       {itemItem.map((e) => (
         <ListItem key={e.id}>
-          <ListItemIcon color='primary' fontSize="xs" style={{ fontSize: 6, color: "#011B60" }}>
+          <ListItemIcon color='primary' style={{ fontSize: 6, color: "#011B60" }}>
             {e.icon}
           </ListItemIcon>
           <ListItemText>
-            <Typography variant="body1" style={{ fontSize: 12, color: "#011B60" }}>
+            <Typography variant="body1" style={{ fontSize: 13, color: "#011B60" }}>
               {e.title}
             </Typography>
           </ListItemText>

@@ -23,5 +23,4 @@ const headerStyle = {
     flexDirection: "row",
     justifyContent: "space-between",
     padding: "10px 20px",
-
 }

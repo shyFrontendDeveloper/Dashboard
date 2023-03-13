@@ -7,7 +7,7 @@ const LeftContent = () => {
     <div style={leftStyle}>
       <SystemSecurityUpdateGoodOutlinedIcon />
       <p style={{textDecoration: "underline", textTransform: "capitalize"}}>lagos mainland</p>
-      <p style={{backgroundColor: "#FECF8D", padding: "0 5px", marginLeft: 5}}>HQ</p>
+      <p style={{color: "#ec9f34", marginLeft: 5}}>HQ</p>
       <ExpandMoreOutlinedIcon />
     </div>
   )
@@ -18,4 +18,5 @@ export default LeftContent
 
 const leftStyle = {
     display: "flex",
+    marginTop: 10
 }
